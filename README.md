@@ -15,7 +15,7 @@ PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
 
     Pre-requisites:
     1. Install http-server module (https://www.npmjs.com/package/http-server).
-    2. Install node 10, npm and yarn
+    2. Install node, npm and yarn
 
     Steps:
     1. Go to the project root directory.
