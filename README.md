@@ -22,4 +22,4 @@ PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
     2. Run the following commands in the terminal/command line to build the app:
         - yarn
         - yarn run build
-    3. Please make sure that your build is working successfully.
+    3. Please make sure that your project is built successfully.
