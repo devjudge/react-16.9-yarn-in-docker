@@ -6,15 +6,12 @@ IMPORTANT NOTES (In case Backend Service API Integration is required):
 
     1. The backend endpoint host url can be accessed using "process.env.REACT_APP_API_URL" property. An example is shown in index.js.
     2. PLEASE USE THIS PROPERTY ("process.env.REACT_APP_API_URL") WHEN YOU ARE TRYING TO CALL A BACKEND API. ALSO DON'T CHANGE THIS PROPERTY ELSE THE APP WILL NOT BUILD PROPERLY AND YOUR SUBMISSION WILL NOT BE SCORED. 
-    3. In order to run in your local system, please run one of the below commands to start the server:
+    3. In order to run in your local system, please put one of the below commands only in the "start" scripts in package.json to start the server:
         - Windows (cmd.exe): set "REACT_APP_API_URL=<endpoint URL>" && npm start
         - Windows (Powershell): ($env:REACT_APP_API_URL = "<endpoint URL>") -and (npm start)
         - Linux, macOS (bash): REACT_APP_API_URL=<endpoint URL> npm start
+    4. Don't change the command in the "build" scripts in package.json else the app won't build properly and your submission will not be scored. 
         
-NOTE:
-    1. Make sure you follow the steps mentioned under "PROJECT START STEPS" and ensure that the steps execute successfully.  
-
-
 PROJECT START STEPS:
 
     Pre-requisites:
