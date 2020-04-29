@@ -21,5 +21,5 @@ PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
     1. Go to the project root directory.
     2. Run the following commands in the terminal/command line to build the app:
         - yarn
-        - yarn run build (NOTE: make sure there in no webpack present before running this command in any directory above this directory.)
+        - yarn run build
     3. Please make sure that your build is working successfully.
