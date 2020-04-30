@@ -13,9 +13,9 @@ RUN ./pre-build.sh
 # Add extra docker commands here (if any)...
 
 # Build the app (ng build --prod)
-# RUN wget https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/web-micro-project/javascript/react/16.9/yarn/build-v2.sh
-RUN chmod 775 ./build-v2.sh
-RUN ./build-v2.sh
+RUN wget https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/web-micro-project/javascript/react/16.9/yarn/build-v3.sh
+RUN chmod 775 ./build-v3.sh
+RUN ./build-v3.sh
 
 # Add extra docker commands here (if any)...
 
