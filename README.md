@@ -11,7 +11,7 @@ IMPORTANT NOTES (In case Backend Service API Integration is required):
         - Windows (Powershell): ($env:REACT_APP_API_URL = "<endpoint URL>") -and (yarn start)
         - Linux, macOS (bash): REACT_APP_API_URL=<endpoint URL> yarn start     
         
-PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
+PROJECT BUILD AND START STEPS (Make sure that your project is getting built successfully):
 
     Pre-requisites:
     1. Install http-server module (https://www.npmjs.com/package/http-server).
@@ -23,3 +23,5 @@ PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
         - yarn
         - yarn run build
     3. Please make sure that your project is built successfully.
+    4. Run the following commaand in the terminal/command-line to start the app:
+        - npm start
