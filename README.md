@@ -24,4 +24,4 @@ PROJECT BUILD AND START STEPS (Make sure that your project is getting built succ
         - yarn run build
     3. Please make sure that your project is built successfully.
     4. Run the following commaand in the terminal/command-line to start the app:
-        - npm start
+        - yarn start
