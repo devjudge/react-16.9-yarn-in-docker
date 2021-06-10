@@ -25,3 +25,10 @@ PROJECT BUILD AND START STEPS (Make sure that your project is getting built succ
     3. Please make sure that your project is built successfully.
     4. Run the following commaand in the terminal/command-line to start the app:
         - yarn start
+        
+CLOUD-IDE SETUP STEPS(follow the below steps in case you are using the Cloud IDE instead of your Local IDE):
+
+    1. Please run the below commands from the project root in a separate terminal to setup live run support in Cloud IDE:
+        - chmod 0755 ./chrome-test-setup.sh
+        - sh ./chrome-test-setup.sh
+    2. Make the port 9515 public
